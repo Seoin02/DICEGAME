@@ -1,4 +1,5 @@
 import Dice from './dice';
+import './style.css';
 
 function Board({ name, color, gameHistory }) {
   const num = gameHistory[gameHistory.length - 1] || 1;
